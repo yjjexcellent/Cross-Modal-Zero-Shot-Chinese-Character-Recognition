@@ -1,0 +1,30 @@
+import os
+
+config = {
+    'epoch': 100,
+    'train_dataset': 'D:\\a_project_py\\FDT-CCR\\data\\train',
+    'val_dataset': 'D:\\a_project_py\\FDT-CCR\\data\\train',
+    'batch_size': 4,
+    'char_dict': './char_dict',
+    'alphabet_path': './data/IDS/radical_alphabet_3755.txt',
+    'decompose_path': './data/IDS/decompose_3755_rnn_10stru.txt',
+    'lr': 1e-4,
+    'train_class': 3,
+    'val_class': 1,
+    'vision_input_resolution': 128,
+    'vision_patch_size': 16,
+    'vision_width': 512,
+    'vision_layers': 12,
+    'vision_heads': 8,
+    'vision_output_dim': 512,
+    'text_embed_dim': 512,
+    'max_len': 30,
+    'text_width': 512,
+    'text_heads': 8,
+    'text_layers': 12,
+    'codebook_num': 200,
+    'codebook_dim': 256,
+    'temperature': 8,
+    'is_threshold': False,
+    'save_root': './output/'
+}
